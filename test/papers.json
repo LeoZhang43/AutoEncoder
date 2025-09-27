@@ -1,0 +1,310 @@
+[
+  {
+    "arxiv_id": "1002.3345v2",
+    "title": "Interactive Submodular Set Cover",
+    "authors": [
+      "Andrew Guillory",
+      "Jeff Bilmes"
+    ],
+    "abstract": "We introduce a natural generalization of submodular set cover and exact\nactive learning with a finite hypothesis class (query learning). We call this\nnew problem interactive submodular set cover. Applications include advertising\nin social networks with hidden information. We give an approximation guarantee\nfor a novel greedy algorithm and give a hardness of approximation result which\nmatches up to constant factors. We also discuss negative results for simpler\napproaches and present encouraging early experimental results.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-02-17T18:43:59Z",
+    "updated": "2010-05-20T23:39:23Z",
+    "abstract_stats": {
+      "total_words": 75,
+      "unique_words": 57,
+      "total_sentences": 5,
+      "avg_words_per_sentence": 15.0,
+      "avg_word_length": 5.933333333333334
+    }
+  },
+  {
+    "arxiv_id": "1002.4007v1",
+    "title": "Word level Script Identification from Bangla and Devanagri Handwritten\n  Texts mixed with Roman Script",
+    "authors": [
+      "Ram Sarkar",
+      "Nibaran Das",
+      "Subhadip Basu",
+      "Mahantapas Kundu",
+      "Mita Nasipuri",
+      "Dipak Kumar Basu"
+    ],
+    "abstract": "India is a multi-lingual country where Roman script is often used alongside\ndifferent Indic scripts in a text document. To develop a script specific\nhandwritten Optical Character Recognition (OCR) system, it is therefore\nnecessary to identify the scripts of handwritten text correctly. In this paper,\nwe present a system, which automatically separates the scripts of handwritten\nwords from a document, written in Bangla or Devanagri mixed with Roman scripts.\nIn this script separation technique, we first, extract the text lines and words\nfrom document pages using a script independent Neighboring Component Analysis\ntechnique. Then we have designed a Multi Layer Perceptron (MLP) based\nclassifier for script separation, trained with 8 different wordlevel holistic\nfeatures. Two equal sized datasets, one with Bangla and Roman scripts and the\nother with Devanagri and Roman scripts, are prepared for the system evaluation.\nOn respective independent text samples, word-level script identification\naccuracies of 99.29% and 98.43% are achieved.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-02-21T19:48:16Z",
+    "updated": "2010-02-21T19:48:16Z",
+    "abstract_stats": {
+      "total_words": 157,
+      "unique_words": 96,
+      "total_sentences": 9,
+      "avg_words_per_sentence": 17.444444444444443,
+      "avg_word_length": 5.490445859872612
+    }
+  },
+  {
+    "arxiv_id": "1002.4058v3",
+    "title": "Contextual Bandit Algorithms with Supervised Learning Guarantees",
+    "authors": [
+      "Alina Beygelzimer",
+      "John Langford",
+      "Lihong Li",
+      "Lev Reyzin",
+      "Robert E. Schapire"
+    ],
+    "abstract": "We address the problem of learning in an online, bandit setting where the\nlearner must repeatedly select among $K$ actions, but only receives partial\nfeedback based on its choices. We establish two new facts: First, using a new\nalgorithm called Exp4.P, we show that it is possible to compete with the best\nin a set of $N$ experts with probability $1-\\delta$ while incurring regret at\nmost $O(\\sqrt{KT\\ln(N/\\delta)})$ over $T$ time steps. The new algorithm is\ntested empirically in a large-scale, real-world dataset. Second, we give a new\nalgorithm called VE that competes with a possibly infinite set of policies of\nVC-dimension $d$ while incurring regret at most $O(\\sqrt{T(d\\ln(T) + \\ln\n(1/\\delta))})$ with probability $1-\\delta$. These guarantees improve on those\nof all previous algorithms, whether in a stochastic or adversarial environment,\nand bring us closer to providing supervised learning type guarantees for the\ncontextual bandit setting.",
+    "categories": [
+      "cs.LG",
+      "I.2.6"
+    ],
+    "published": "2010-02-22T07:11:39Z",
+    "updated": "2011-10-27T19:28:49Z",
+    "abstract_stats": {
+      "total_words": 161,
+      "unique_words": 105,
+      "total_sentences": 6,
+      "avg_words_per_sentence": 26.833333333333332,
+      "avg_word_length": 4.608695652173913
+    }
+  },
+  {
+    "arxiv_id": "1002.4908v2",
+    "title": "Adaptive Bound Optimization for Online Convex Optimization",
+    "authors": [
+      "H. Brendan McMahan",
+      "Matthew Streeter"
+    ],
+    "abstract": "We introduce a new online convex optimization algorithm that adaptively\nchooses its regularization function based on the loss functions observed so\nfar. This is in contrast to previous algorithms that use a fixed regularization\nfunction such as L2-squared, and modify it only via a single time-dependent\nparameter. Our algorithm's regret bounds are worst-case optimal, and for\ncertain realistic classes of loss functions they are much better than existing\nbounds. These bounds are problem-dependent, which means they can exploit the\nstructure of the actual problem instance. Critically, however, our algorithm\ndoes not need to know this structure in advance. Rather, we prove competitive\nguarantees that show the algorithm provides a bound within a constant factor of\nthe best possible bound (of a certain functional form) in hindsight.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-02-26T01:36:34Z",
+    "updated": "2010-07-07T19:07:16Z",
+    "abstract_stats": {
+      "total_words": 131,
+      "unique_words": 93,
+      "total_sentences": 6,
+      "avg_words_per_sentence": 21.833333333333332,
+      "avg_word_length": 5.282442748091603
+    }
+  },
+  {
+    "arxiv_id": "1003.0024v1",
+    "title": "Asymptotic Analysis of Generative Semi-Supervised Learning",
+    "authors": [
+      "Joshua V Dillon",
+      "Krishnakumar Balasubramanian",
+      "Guy Lebanon"
+    ],
+    "abstract": "Semisupervised learning has emerged as a popular framework for improving\nmodeling accuracy while controlling labeling cost. Based on an extension of\nstochastic composite likelihood we quantify the asymptotic accuracy of\ngenerative semi-supervised learning. In doing so, we complement\ndistribution-free analysis by providing an alternative framework to measure the\nvalue associated with different labeling policies and resolve the fundamental\nquestion of how much data to label and in what manner. We demonstrate our\napproach with both simulation studies and real world experiments using naive\nBayes for text classification and MRFs and CRFs for structured prediction in\nNLP.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-02-26T21:59:02Z",
+    "updated": "2010-02-26T21:59:02Z",
+    "abstract_stats": {
+      "total_words": 98,
+      "unique_words": 77,
+      "total_sentences": 4,
+      "avg_words_per_sentence": 24.5,
+      "avg_word_length": 5.836734693877551
+    }
+  },
+  {
+    "arxiv_id": "1003.0470v2",
+    "title": "Unsupervised Supervised Learning II: Training Margin Based Classifiers\n  without Labels",
+    "authors": [
+      "Krishnakumar Balasubramanian",
+      "Pinar Donmez",
+      "Guy Lebanon"
+    ],
+    "abstract": "Many popular linear classifiers, such as logistic regression, boosting, or\nSVM, are trained by optimizing a margin-based risk function. Traditionally,\nthese risk functions are computed based on a labeled dataset. We develop a\nnovel technique for estimating such risks using only unlabeled data and the\nmarginal label distribution. We prove that the proposed risk estimator is\nconsistent on high-dimensional datasets and demonstrate it on synthetic and\nreal-world data. In particular, we show how the estimate is used for evaluating\nclassifiers in transfer learning, and for training classifiers with no labeled\ndata whatsoever.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-03-01T22:32:18Z",
+    "updated": "2010-07-21T21:19:35Z",
+    "abstract_stats": {
+      "total_words": 95,
+      "unique_words": 70,
+      "total_sentences": 5,
+      "avg_words_per_sentence": 19.0,
+      "avg_word_length": 5.484210526315789
+    }
+  },
+  {
+    "arxiv_id": "1003.0516v1",
+    "title": "Model Selection with the Loss Rank Principle",
+    "authors": [
+      "Marcus Hutter",
+      "Minh-Ngoc Tran"
+    ],
+    "abstract": "A key issue in statistics and machine learning is to automatically select the\n\"right\" model complexity, e.g., the number of neighbors to be averaged over in\nk nearest neighbor (kNN) regression or the polynomial degree in regression with\npolynomials. We suggest a novel principle - the Loss Rank Principle (LoRP) -\nfor model selection in regression and classification. It is based on the loss\nrank, which counts how many other (fictitious) data would be fitted better.\nLoRP selects the model that has minimal loss rank. Unlike most penalized\nmaximum likelihood variants (AIC, BIC, MDL), LoRP depends only on the\nregression functions and the loss function. It works without a stochastic noise\nmodel, and is directly applicable to any non-parametric regressor, like kNN.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-03-02T08:21:07Z",
+    "updated": "2010-03-02T08:21:07Z",
+    "abstract_stats": {
+      "total_words": 122,
+      "unique_words": 85,
+      "total_sentences": 8,
+      "avg_words_per_sentence": 15.25,
+      "avg_word_length": 5.057377049180328
+    }
+  },
+  {
+    "arxiv_id": "1003.0691v1",
+    "title": "Statistical and Computational Tradeoffs in Stochastic Composite\n  Likelihood",
+    "authors": [
+      "Joshua V Dillon",
+      "Guy Lebanon"
+    ],
+    "abstract": "Maximum likelihood estimators are often of limited practical use due to the\nintensive computation they require. We propose a family of alternative\nestimators that maximize a stochastic variation of the composite likelihood\nfunction. Each of the estimators resolve the computation-accuracy tradeoff\ndifferently, and taken together they span a continuous spectrum of\ncomputation-accuracy tradeoff resolutions. We prove the consistency of the\nestimators, provide formulas for their asymptotic variance, statistical\nrobustness, and computational complexity. We discuss experimental results in\nthe context of Boltzmann machines and conditional random fields. The\ntheoretical and experimental studies demonstrate the effectiveness of the\nestimators when the computational resources are insufficient. They also\ndemonstrate that in some cases reduced computational complexity is associated\nwith robustness thereby increasing statistical accuracy.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-03-02T21:54:16Z",
+    "updated": "2010-03-02T21:54:16Z",
+    "abstract_stats": {
+      "total_words": 123,
+      "unique_words": 77,
+      "total_sentences": 7,
+      "avg_words_per_sentence": 17.571428571428573,
+      "avg_word_length": 6.544715447154472
+    }
+  },
+  {
+    "arxiv_id": "1003.0696v1",
+    "title": "Exponential Family Hybrid Semi-Supervised Learning",
+    "authors": [
+      "Arvind Agarwal",
+      "Hal Daume III"
+    ],
+    "abstract": "We present an approach to semi-supervised learning based on an exponential\nfamily characterization. Our approach generalizes previous work on coupled\npriors for hybrid generative/discriminative models. Our model is more flexible\nand natural than previous approaches. Experimental results on several data sets\nshow that our approach also performs better in practice.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-03-02T22:27:31Z",
+    "updated": "2010-03-02T22:27:31Z",
+    "abstract_stats": {
+      "total_words": 52,
+      "unique_words": 44,
+      "total_sentences": 4,
+      "avg_words_per_sentence": 13.0,
+      "avg_word_length": 5.961538461538462
+    }
+  },
+  {
+    "arxiv_id": "1003.1450v1",
+    "title": "A New Clustering Approach based on Page's Path Similarity for Navigation\n  Patterns Mining",
+    "authors": [
+      "Heidar Mamosian",
+      "Amir Masoud Rahmani",
+      "Mashalla Abbasi Dezfouli"
+    ],
+    "abstract": "In recent years, predicting the user's next request in web navigation has\nreceived much attention. An information source to be used for dealing with such\nproblem is the left information by the previous web users stored at the web\naccess log on the web servers. Purposed systems for this problem work based on\nthis idea that if a large number of web users request specific pages of a\nwebsite on a given session, it can be concluded that these pages are satisfying\nsimilar information needs, and therefore they are conceptually related. In this\nstudy, a new clustering approach is introduced that employs logical path\nstoring of a website pages as another parameter which is regarded as a\nsimilarity parameter and conceptual relation between web pages. The results of\nsimulation have shown that the proposed approach is more than others precise in\ndetermining the clusters.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-03-07T11:08:33Z",
+    "updated": "2010-03-07T11:08:33Z",
+    "abstract_stats": {
+      "total_words": 145,
+      "unique_words": 96,
+      "total_sentences": 5,
+      "avg_words_per_sentence": 29.0,
+      "avg_word_length": 4.951724137931034
+    }
+  },
+  {
+    "arxiv_id": "1003.1510v1",
+    "title": "Hierarchical Web Page Classification Based on a Topic Model and\n  Neighboring Pages Integration",
+    "authors": [
+      "Wongkot Sriurai",
+      "Phayung Meesad",
+      "Choochart Haruechaiyasak"
+    ],
+    "abstract": "Most Web page classification models typically apply the bag of words (BOW)\nmodel to represent the feature space. The original BOW representation, however,\nis unable to recognize semantic relationships between terms. One possible\nsolution is to apply the topic model approach based on the Latent Dirichlet\nAllocation algorithm to cluster the term features into a set of latent topics.\nTerms assigned into the same topic are semantically related. In this paper, we\npropose a novel hierarchical classification method based on a topic model and\nby integrating additional term features from neighboring pages. Our\nhierarchical classification method consists of two phases: (1) feature\nrepresentation by using a topic model and integrating neighboring pages, and\n(2) hierarchical Support Vector Machines (SVM) classification model constructed\nfrom a confusion matrix. From the experimental results, the approach of using\nthe proposed hierarchical SVM model by integrating current page with\nneighboring pages via the topic model yielded the best performance with the\naccuracy equal to 90.33% and the F1 measure of 90.14%; an improvement of 5.12%\nand 5.13% over the original SVM model, respectively.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-03-07T18:32:47Z",
+    "updated": "2010-03-07T18:32:47Z",
+    "abstract_stats": {
+      "total_words": 182,
+      "unique_words": 102,
+      "total_sentences": 11,
+      "avg_words_per_sentence": 16.545454545454547,
+      "avg_word_length": 5.4010989010989015
+    }
+  },
+  {
+    "arxiv_id": "1003.2218v1",
+    "title": "Supermartingales in Prediction with Expert Advice",
+    "authors": [
+      "Alexey Chernov",
+      "Yuri Kalnishkan",
+      "Fedor Zhdanov",
+      "Vladimir Vovk"
+    ],
+    "abstract": "We apply the method of defensive forecasting, based on the use of\ngame-theoretic supermartingales, to prediction with expert advice. In the\ntraditional setting of a countable number of experts and a finite number of\noutcomes, the Defensive Forecasting Algorithm is very close to the well-known\nAggregating Algorithm. Not only the performance guarantees but also the\npredictions are the same for these two methods of fundamentally different\nnature. We discuss also a new setting where the experts can give advice\nconditional on the learner's future decision. Both the algorithms can be\nadapted to the new setting and give the same performance guarantees as in the\ntraditional setting. Finally, we outline an application of defensive\nforecasting to a setting with several loss functions.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-03-10T21:53:56Z",
+    "updated": "2010-03-10T21:53:56Z",
+    "abstract_stats": {
+      "total_words": 124,
+      "unique_words": 73,
+      "total_sentences": 6,
+      "avg_words_per_sentence": 20.666666666666668,
+      "avg_word_length": 5.258064516129032
+    }
+  },
+  {
+    "arxiv_id": "1004.1982v1",
+    "title": "State-Space Dynamics Distance for Clustering Sequential Data",
+    "authors": [
+      "Darío García-García",
+      "Emilio Parrado-Hernández",
+      "Fernando Díaz-de-María"
+    ],
+    "abstract": "This paper proposes a novel similarity measure for clustering sequential\ndata. We first construct a common state-space by training a single\nprobabilistic model with all the sequences in order to get a unified\nrepresentation for the dataset. Then, distances are obtained attending to the\ntransition matrices induced by each sequence in that state-space. This approach\nsolves some of the usual overfitting and scalability issues of the existing\nsemi-parametric techniques, that rely on training a model for each sequence.\nEmpirical studies on both synthetic and real-world datasets illustrate the\nadvantages of the proposed similarity measure for clustering sequences.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-04-09T09:36:28Z",
+    "updated": "2010-04-09T09:36:28Z",
+    "abstract_stats": {
+      "total_words": 101,
+      "unique_words": 69,
+      "total_sentences": 5,
+      "avg_words_per_sentence": 20.2,
+      "avg_word_length": 5.534653465346534
+    }
+  },
+  {
+    "arxiv_id": "1004.2316v2",
+    "title": "Asymptotic Equivalence of Bayes Cross Validation and Widely Applicable\n  Information Criterion in Singular Learning Theory",
+    "authors": [
+      "Sumio Watanabe"
+    ],
+    "abstract": "In regular statistical models, the leave-one-out cross-validation is\nasymptotically equivalent to the Akaike information criterion. However, since\nmany learning machines are singular statistical models, the asymptotic behavior\nof the cross-validation remains unknown. In previous studies, we established\nthe singular learning theory and proposed a widely applicable information\ncriterion, the expectation value of which is asymptotically equal to the\naverage Bayes generalization loss. In the present paper, we theoretically\ncompare the Bayes cross-validation loss and the widely applicable information\ncriterion and prove two theorems. First, the Bayes cross-validation loss is\nasymptotically equivalent to the widely applicable information criterion as a\nrandom variable. Therefore, model selection and hyperparameter optimization\nusing these two values are asymptotically equivalent. Second, the sum of the\nBayes generalization error and the Bayes cross-validation error is\nasymptotically equal to $2\\lambda/n$, where $\\lambda$ is the real log canonical\nthreshold and $n$ is the number of training samples. Therefore the relation\nbetween the cross-validation error and the generalization error is determined\nby the algebraic geometrical structure of a learning machine. We also clarify\nthat the deviance information criteria are different from the Bayes\ncross-validation and the widely applicable information criterion.",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2010-04-14T05:08:48Z",
+    "updated": "2010-10-14T01:55:02Z",
+    "abstract_stats": {
+      "total_words": 201,
+      "unique_words": 95,
+      "total_sentences": 9,
+      "avg_words_per_sentence": 22.333333333333332,
+      "avg_word_length": 5.9502487562189055
+    }
+  }
+]
